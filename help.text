@@ -1,0 +1,6 @@
+Générer une clé SSL
+
+php bin/console lexik:jwt:generate-keypair
+
+--skip-if-exists will silently do nothing if keys already exist.
+--overwrite will overwrite your keys if they already exist.
